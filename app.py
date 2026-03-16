@@ -219,7 +219,7 @@ html, body, [class*="css"] {
     display:inline-flex; align-items:center; justify-content:center;
     font-size:0.85rem; font-weight:700; margin-bottom:0.7rem;
 }
-.step-card h4 { font-family:'Playfair Display',serif; font-size:1.1rem; color:var(--charcoal); margin:0.4rem 0; }
+.step-card h4 { font-family:'Playfair Display',serif; font-size:1.1rem; background:linear-gradient(to bottom,#FFAEC4,#FE7396,#F34873); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; margin:0.4rem 0; }
 .step-card p  { font-size:0.88rem; color:var(--muted); line-height:1.55; margin:0; }
 
 /* ── Triage badges ── */
@@ -251,7 +251,7 @@ html, body, [class*="css"] {
 
 /* ── Resources ── */
 .resource-card { background:var(--white); border-radius:16px; padding:1.6rem; box-shadow:var(--shadow); border-top:4px solid var(--gold); margin-bottom:1rem; }
-.resource-card h4 { font-family:'Playfair Display',serif; font-size:1.2rem; color:var(--charcoal); margin:0 0 0.5rem 0; }
+.resource-card h4 { font-family:'Playfair Display',serif; font-size:1.2rem; background:linear-gradient(to bottom,#FFAEC4,#FE7396,#F34873); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; margin:0 0 0.5rem 0; }
 .resource-card .tag { background:#FDF0D8; color:#8B5E00; border-radius:50px; padding:0.2rem 0.7rem; font-size:0.75rem; font-weight:600; margin-right:0.4rem; display:inline-block; margin-bottom:0.6rem; }
 .resource-card p { font-size:0.9rem; line-height:1.65; color:var(--muted); margin:0; }
 
@@ -263,7 +263,7 @@ html, body, [class*="css"] {
 .stat-tile .label { font-size:0.82rem; opacity:0.88; letter-spacing:0.04em; text-transform:uppercase; }
 
 /* ── Section headers ── */
-.section-header { font-family:'Playfair Display',serif; font-size:1.9rem; font-weight:700; color:var(--charcoal); margin-bottom:0.2rem; }
+.section-header { font-family:'Playfair Display',serif; font-size:1.9rem; font-weight:700; background:linear-gradient(to bottom,#FFAEC4,#FE7396,#F34873); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; margin-bottom:0.2rem; }
 .section-sub    { color:var(--muted); font-size:0.95rem; margin-bottom:1.5rem; }
 .gold-line      { width:50px; height:4px; background:linear-gradient(90deg,var(--rose),var(--gold)); border-radius:2px; margin:0.4rem 0 1.2rem 0; }
 
@@ -273,7 +273,7 @@ html, body, [class*="css"] {
 .about-hero p  { font-size:1.05rem; color:rgba(253,246,238,0.82); line-height:1.8; max-width:700px; }
 .team-card { background:var(--white); border-radius:16px; padding:1.5rem; text-align:center; box-shadow:var(--shadow); border-bottom:4px solid var(--gold); }
 .team-card .avatar { font-size:2.8rem; margin-bottom:0.6rem; }
-.team-card h4 { font-family:'Playfair Display',serif; color:var(--charcoal); margin:0; font-size:1.05rem; }
+.team-card h4 { font-family:'Playfair Display',serif; background:linear-gradient(to bottom,#FFAEC4,#FE7396,#F34873); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; margin:0; font-size:1.05rem; }
 .team-card .role { font-size:0.82rem; color:var(--muted); margin:0.2rem 0 0.6rem 0; }
 .team-card p  { font-size:0.84rem; color:var(--muted); line-height:1.55; margin:0; }
 .value-pill { display:inline-block; background:linear-gradient(135deg,var(--rose),var(--rose-lt)); color:white; border-radius:50px; padding:0.5rem 1.3rem; font-size:0.88rem; font-weight:600; margin:0.3rem; }
