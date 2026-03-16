@@ -1,6 +1,4 @@
-Here is the updated `README.md` reflecting Streamlit as the framework for your application. I've adjusted the tech stack, installation steps, and run commands accordingly.
 
-```markdown
 # 🌺 Wema Health: Afrocentric Women's Health Navigator
 
 Wema Health is a dedicated health navigation platform tailored specifically for the African woman. Designed with a culturally resonant UI/UX, the platform empowers women to take charge of their health through daily symptom tracking, access to verified medical information, and community support. 
