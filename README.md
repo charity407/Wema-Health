@@ -1,9 +1,11 @@
+Here is the updated `README.md` reflecting Streamlit as the framework for your application. I've adjusted the tech stack, installation steps, and run commands accordingly.
 
+```markdown
 # 🌺 Wema Health: Afrocentric Women's Health Navigator
 
-Wema Health is a dedicated health navigation platform tailored specifically for the African woman. Designed with a fully Afrocentric UI/UX, the platform empowers women to take charge of their health through daily symptom tracking, access to verified medical information, and a vibrant community support network. 
+Wema Health is a dedicated health navigation platform tailored specifically for the African woman. Designed with a culturally resonant UI/UX, the platform empowers women to take charge of their health through daily symptom tracking, access to verified medical information, and community support. 
 
-By bridging the gap between patients and healthcare providers, Wema Health ensures that health data is tracked accurately, easing the diagnostic process for doctors while providing a culturally resonant experience.
+By bridging the gap between patients and healthcare providers, Wema Health ensures that health data is tracked accurately, easing the diagnostic process for doctors while providing an intuitive, supportive experience.
 
 ---
 
@@ -12,13 +14,13 @@ By bridging the gap between patients and healthcare providers, Wema Health ensur
 * **Daily Symptom Tracker:** Allows users to manually enter and track their symptoms daily. This generates comprehensive health logs that can be easily shared with doctors to facilitate better, faster diagnoses.
 * **Disease Information Hub ("Learn More"):** An educational section providing accurate, real-world data and verified information about diseases and health conditions, specifically focusing on those that affect women.
 * **Community Support Groups:** A built-in safe space and support network for users to connect, share experiences, and find solidarity on their health journeys.
-* **Afrocentric UI/UX:** An intuitive, culturally relevant design built from the ground up to reflect the identity, experiences, and specific needs of the African woman.
+* **Interactive Dashboards:** Powered by Streamlit, offering dynamic data visualization for symptom trends over time.
 
 ## 🛠 Tech Stack
 
-* **Backend / API:** Python (FastAPI) powered by `app.py` for high-performance endpoints and custom logic.
-* **Data Integration:** Medical logic mapping utilizing real-world datasets (such as ICD-11 or SNOMED CT) for accurate symptom-to-condition mapping.
-* **Database Integration:** Designed to integrate with robust relational databases like PostgreSQL (e.g., via Supabase) for secure user and health data management.
+* **Frontend & Backend:** [Streamlit](https://streamlit.io/) (Python) powered by `app.py` for rapid UI development and seamless data integration.
+* **Data Processing:** Python (Pandas/NumPy) for managing and analyzing symptom logs and user inputs.
+* **Database Integration:** Designed to connect with databases (like PostgreSQL/Supabase) or local CSV storage for managing health data securely.
 
 ## 🚀 Getting Started
 
@@ -39,46 +41,43 @@ By bridging the gap between patients and healthcare providers, Wema Health ensur
 2.  **Create and activate a virtual environment:**
     ```bash
     python -m venv venv
+    
     # On Windows:
     venv\Scripts\activate
+    
     # On macOS/Linux:
     source venv/bin/activate
     ```
 
 3.  **Install the dependencies:**
-    *(Assuming a `requirements.txt` is present; if not, you will need to install FastAPI and Uvicorn manually).*
     ```bash
-    pip install fastapi uvicorn
-    # Or pip install -r requirements.txt
+    pip install streamlit
     ```
 
 ### Running the Application
 
-To start the Wema Health backend server locally, run the `app.py` entry point:
+To start the Wema Health application locally, use the Streamlit CLI:
 
 ```bash
-uvicorn app:app --reload
+streamlit run app.py
 
 ```
 
-The API will be available at `http://127.0.0.1:8000`. You can view the interactive API documentation (Swagger UI) by navigating to `http://127.0.0.1:8000/docs`.
+This will automatically open a new tab in your default web browser (usually at `http://localhost:8501`) where you can interact with the application.
 
 ## 📂 Project Structure
 
 ```text
 Wema-Health/
 │
-├── app.py                 # Main application entry point and FastAPI routing
-├── requirements.txt       # Project dependencies (ensure this is added)
-├── core/                  # Core logic (symptom mapping, data models)
-├── api/                   # API endpoints (users, tracking, education)
+├── app.py                 # Main Streamlit application entry point
 └── README.md              # Project documentation
 
 ```
 
 ## 🤝 Contributing
 
-Wema Health is built on the vision of empowering women in technology and healthcare. Contributions are highly encouraged! If you have suggestions for improving the Afrocentric UI, adding new real-world health datasets, or optimizing the backend logic:
+Contributions are highly encouraged! If you have suggestions for improving the UI, adding new health datasets, or optimizing the app's performance:
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -95,4 +94,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 *Built with passion to empower, educate, and elevate African women's health.*
 
 ```
-
