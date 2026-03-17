@@ -83,6 +83,9 @@ Contributions are highly encouraged! If you have suggestions for improving the U
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## LIVE APP LINK
+https://wema-health.streamlit.app/
+
 ## 🛡 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
